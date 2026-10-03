@@ -1,0 +1,10 @@
+# Raw inventory output stays local until reviewed and moved to hosts/<name>/
+inventory-*/
+*.tar.gz
+# Never commit secrets
+.env
+*.key
+*.pem
+id_*
+secrets/*
+!secrets/*.example
